@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER ruy@devsquad.com
+MAINTAINER ruy.silva@engesoftware.com.br
 WORKDIR /var/www
 RUN apk update && apk upgrade && apk add --no-cache git curl openssl \
     php7 php7-fpm php7-opcache php7-json php7-phar php7-iconv php7-openssl php7-zlib php7-simplexml php7-tokenizer php7-xmlwriter php7-dom php7-mbstring \
